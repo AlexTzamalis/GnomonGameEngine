@@ -1,0 +1,41 @@
+# Build Artifacts & CMake Directories
+build/
+bin/
+out/
+cmake-build-*/
+_deps/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+!CMakeLists.txt
+CMakeUserPresets.json
+
+# Compiled Binaries & Libraries
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.idb
+
+# CLion & IDE Settings
+.idea/
+*.iws
+*.iml
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+
+# OS-Specific Garbage
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
